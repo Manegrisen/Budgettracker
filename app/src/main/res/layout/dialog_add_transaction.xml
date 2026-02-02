@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Transaction Label Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/dialogLabelLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Label">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/dialogLabelInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Transaction Amount Input -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/dialogAmountLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Amount"
+        android:layout_marginTop="12dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/dialogAmountInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/amount"
+            android:inputType="numberDecimal|numberSigned" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

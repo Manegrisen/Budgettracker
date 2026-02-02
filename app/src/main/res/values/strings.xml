@@ -1,0 +1,15 @@
+<resources>
+
+        <string name="app_name">BudgetTracker</string>
+
+        <!-- Dashboard strings -->
+        <string name="total_balance">Total Balance</string>
+        <string name="budget">Budget</string>
+        <string name="expense">Expense</string>
+        <string name="transactions">Transactions</string>
+        <string name="add_transaction">Add Transaction</string>
+        <string name="clear_transactions">Clear Transactions</string>
+        <string name="amount">Amount</string>
+
+
+</resources>
