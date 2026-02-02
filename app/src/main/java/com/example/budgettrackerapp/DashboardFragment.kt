@@ -30,21 +30,21 @@ class DashboardFragment : Fragment() {
         // Inflate the fragment layout
         val view = inflater.inflate(R.layout.fragment_dashboard, container, false)
 
-        // Dashboard TextViews
+        // Dahsboard TextViews
         balanceTextView = view.findViewById(R.id.balance)
         budgetTextView = view.findViewById(R.id.budget)
         expenseTextView = view.findViewById(R.id.expense)
 
-        // RecyclerView
+        // recyclerView
         recyclerView = view.findViewById(R.id.recycleview)
         linearLayoutManager = LinearLayoutManager(requireContext())
         recyclerView.layoutManager = linearLayoutManager
 
-        // Buttons
+        // buttons
         addTransactionBtn = view.findViewById(R.id.addTransactionBtn)
         clearTransactionBtn = view.findViewById(R.id.clearTransactionBtn)
 
-        // Initialize transaction list and adapter
+        // Initialise transaction list and adapter
         transaction = arrayListOf(
             Transaction("Weekend budget", 400.0),
             Transaction("Apple", -4.0),
